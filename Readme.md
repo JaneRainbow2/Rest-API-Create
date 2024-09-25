@@ -11,10 +11,7 @@ Create REST-controllers for managing the following resources:
 2) Add security rules as from the previous stage (use BasicAuth to begin with)
 3) Customize exception handling, use `ResponseStatusException`
 4) Use [Postman](https://www.postman.com/downloads/) to demonstrate the functionality
-5) Optionally try to implement JWT authentication (the [JJWT](https://github.com/jwtk/jjwt) library included in the pom.xml)
 
-
-![](C:\Users\obutr\Downloads\ToDoList\ERD.png)
 
 There are three predefined users in the DB with roles ADMIN and USER.
 
