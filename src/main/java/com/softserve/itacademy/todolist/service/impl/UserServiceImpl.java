@@ -32,6 +32,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public User readByEmail(String email){
+        return userRepository.findByEmail(email);
+    }
+
+    @Override
     public User update(User role) {
         if (role != null) {
             readById(role.getId());
